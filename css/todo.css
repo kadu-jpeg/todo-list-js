@@ -1,0 +1,99 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    background-color: #ddd;
+}
+
+div.todo{
+    max-width: 40em;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 13px 2px rgba(50, 50, 50, 0.4);
+       -moz-box-shadow:    0px 2px 13px 2px rgba(50, 50, 50, 0.4);
+            box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
+    background-color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+div.todo h2 {
+    text-align: center;
+}
+
+div.todo h3 {
+    margin-left: 10px;
+}
+
+#tarefa {
+    display: block;
+    margin: auto;
+    width: 30em;
+    height: 20px;
+    line-height: 16px;
+}
+
+#adicionar {
+    display: flex;
+    float: right;
+    width: 6em;
+    margin-top: -2em;
+    margin-right: 2em;
+    height: 2em;
+    background: #fff;
+    color: rgb(42, 76, 226);;
+    border: 1px solid rgb(42, 76, 226);
+    border-radius: 3px;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+#adicionar:hover{
+    background: rgb(42, 76, 226);;
+    color: #fff;
+}
+
+.tarefa-edit {
+    width: 31em;
+    height: 1.5em;
+}
+
+#tarefa-lista {
+    width: 40em;
+    margin-top: 1em;
+}
+
+.tarefa-item {
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 1em;
+}
+
+.tarefa-item:hover{
+    background-color: #eee;
+}
+
+.tarefa-delete {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    margin-top: -1.5em;
+    
+    display: block;
+    float: right;
+    
+    visibility: hidden;
+}
+
+.tarefa-item:hover .tarefa-delete{
+    visibility: visible;
+}
+
+.tarefa-delete i:hover{
+    color: #dc3545;
+    cursor: pointer;
+}
