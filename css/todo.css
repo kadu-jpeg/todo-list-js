@@ -32,7 +32,7 @@ div.todo h3 {
 #tarefa {
     display: block;
     margin: auto;
-    width: 200px;
+    width: 30em;
     height: 20px;
     line-height: 16px;
 }
